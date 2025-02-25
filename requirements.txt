@@ -1,0 +1,12 @@
+catboost
+cmdstanpy
+holidays
+kafka-python
+numpy
+pandas
+plotly
+polars
+PyYAML
+scikit-learn
+setuptools-git 
+streamlit

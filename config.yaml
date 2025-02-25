@@ -1,0 +1,20 @@
+kafka:
+  user_events:
+    name: "user_events"
+    bootstrap_servers: "localhost:9095"
+
+  churn_metrics:
+    name: "churn_metrics"
+    bootstrap_servers: "localhost:9095"
+
+data:
+  dataset_path: "./data/ecommerce_customer_data_large.csv"
+  batch_size: 50
+
+ml:
+  churn_model_path: "models/churn_model.cbm"
+  start_shape_train: 5000
+  step_shape_train: 500
+
+dashboard:
+  server: "localhost:9098"
