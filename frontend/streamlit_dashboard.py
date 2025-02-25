@@ -1,16 +1,11 @@
 import streamlit as st
 import pandas as pd
-import pickle
-import yaml
-import plotly.express as px
-
 import sys
 import os
 
 sys.path.append(os.getcwd())
 
 from utils.kafka_utils import KafkaConsumer, load_config
-import os
 
 
 class RetentionDashboard:

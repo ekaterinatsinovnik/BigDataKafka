@@ -9,7 +9,7 @@ kafka:
 
 data:
   dataset_path: "./data/ecommerce_customer_data_large.csv"
-  batch_size: 50
+  batch_size: 10
 
 ml:
   churn_model_path: "models/churn_model.cbm"

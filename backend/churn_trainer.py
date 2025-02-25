@@ -39,7 +39,7 @@ class ChurnPredictor:
         return {
             'f1_score': f1_score(target, prediction),
             'accuracy': balanced_accuracy_score(target, prediction),
-            'total_purchase_amount': self.X.limit(50)["Total Purchase Amount"].mean()	
+            'total_purchase_amount': self.X.limit(10)["Total Purchase Amount"].mean()	
                 }
 
     def _predict(self, event):
